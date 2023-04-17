@@ -48,6 +48,7 @@ const DashBoard = () => {
         };
 
         const response = await axios(reqData);
+        console.log(response.data);
         fetchProduct(page);
         clearData();
     };
@@ -215,7 +216,7 @@ const DashBoard = () => {
             </div>
             <div className='product-list'>
                 {products.map((product) => {
-                    const { name, _id, cost, gender, category, description } = product;
+                    const { _id } = product;
                     return (
                         <DashBoardProduct
                             key={_id}

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './SingleProductCard.css';
 
 const SingleProductCard = ({ product, addToCart }) => {
-    const { name, category, gender, images, cost, description, _id } = product;
+    const { name,  images, cost, _id } = product;
     const productId = _id;
     return (
         <div className='product d-flex product-style'>

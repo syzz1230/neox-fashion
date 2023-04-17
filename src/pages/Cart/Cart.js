@@ -17,7 +17,7 @@ const Cart = ({ cart }) => {
                     </div>
                 )}
                 {cart.map((product) => {
-                    const { name, price, cost, images, _id } = product;
+                    const { name, cost, images, _id } = product;
                     total += parseInt(cost);
                     return (
                         <div key={_id} className='d-flex each-product'>
