@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+        
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(251, 248, 248);
+   
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+
+/* margin utility classes */
+.m-1 {
+    margin: 3px;
+}
+.m-2 {
+    margin: 5px;
+}
+.m-3 {
+    margin: 8px;
+}
+.m-4 {
+    margin: 10px;
+}
+.m-5 {
+    margin: 15px;
+}
+/* margin-x axis utility classess */
+.mx-1 {
+    margin: 0 3px;
+}
+.mx-2 {
+    margin: 0 5px;
+}
+.mx-3 {
+    margin: 0 8px;
+}
+.mx-4 {
+    margin: 0 10px;
+}
+.mx-5 {
+    margin: 0 15px;
+}
+/* margin-y axis utility classess */
+.my-1 {
+    margin: 3px 0;
+}
+.my-2 {
+    margin: 5px 0;
+}
+.my-3 {
+    margin: 8px 0;
+}
+.my-4 {
+    margin: 10px 0;
+}
+.my-5 {
+    margin: 15px 0;
+}
+
+/* margin-top utility class */
+.mt-1 {
+    margin-top: 3px;
+}
+.mt-2 {
+    margin-top: 5px;
+}
+.mt-3 {
+    margin-top: 8px;
+}
+.mt-4 {
+    margin-top: 10px;
+}
+.mt-5 {
+    margin-top: 15px;
+}
+
+/* padding utility classes */
+.p-1 {
+    padding: 3px;
+}
+.p-2 {
+    padding: 5px;
+}
+.p-3 {
+    padding: 8px;
+}
+.p-4 {
+    padding: 10px;
+}
+.p-5 {
+    padding: 15px;
+}
+
+/* disply utility classess */
+.d-none {
+    display: none;
+}
+.d-inline {
+    display: inline;
+}
+
+.no-bullet {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* button */
+.btn {
+    border: 1px solid rgba(228, 223, 223, 0);
+    border-radius: 3px;
+    padding: 3px 8px;
+    
+    cursor: pointer;
+    background-color: rgba(211, 205, 205, 0);
+    color: white;
+}
+.btn:hover {
+    background-color: rgb(8, 116, 231);
+}
+/* input utility classes */
+
+.no-style {
+    text-decoration: none !important;
+    
+    color: black;
+}
+.primary {
+    background-color: rgb(0, 140, 255);
+}
+
+.orange {
+    background-color: orange;
+}
+.danger{
+    background-color: rgb(243, 67, 67);
+}
+
+.btn-2 {
+    padding: 6px 8px;
+    margin: 3px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: rgb(233, 230, 230);
+    color: black;
+}
+
+
+.f-bold{
+ font-weight: 600;
+}
+.f-capital{
+    text-transform: capitalize;
+}
+.text-orange{
+    color: rgb(219, 225, 38);
+}
+
+.pt-1{
+    padding-top: 5px;
+}

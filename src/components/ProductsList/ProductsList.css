@@ -1,0 +1,19 @@
+.productslist{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: 1fr ;
+    
+}
+@media all and (min-width:480px){
+    .productslist{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media all and (min-width:768px){
+    .productslist{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
